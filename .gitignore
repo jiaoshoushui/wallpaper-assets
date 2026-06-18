@@ -1,0 +1,4 @@
+node_modules/
+
+# 源图仅本地处理，不 push（体积过大）
+4K/
