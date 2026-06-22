@@ -3,8 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "init": "node scripts/init-folders.mjs",
     "build": "node scripts/build.mjs",
-    "build:force": "node scripts/build.mjs --force"
+    "build:force": "node scripts/build.mjs --force",
+    "sync": "node scripts/build.mjs --manifest-only",
+    "postinstall": "node scripts/init-folders.mjs"
   },
   "devDependencies": {
     "sharp": "^0.34.2"
