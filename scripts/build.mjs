@@ -97,8 +97,8 @@ async function ensureThumb(fullAbs, thumbAbs) {
   await ensureDir(path.dirname(thumbAbs))
   await sharp(fullAbs)
     .rotate()
-    .resize({ width: 520, withoutEnlargement: true })
-    .webp({ quality: 78, effort: 4 })
+    .resize({ width: 400, withoutEnlargement: true })
+    .webp({ quality: 72, effort: 4 })
     .toFile(thumbAbs)
 }
 
