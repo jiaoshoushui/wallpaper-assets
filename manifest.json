@@ -1,5 +1,5 @@
 {
-  "version": "2026-06-22T02:38:14.438Z",
+  "version": "2026-06-22T02:59:40.563Z",
   "categories": [
     "人物",
     "动物",
@@ -4975,15 +4975,15 @@
       "source": "风景/pc-fengjing-fff7b63a.webp"
     },
     {
-      "id": "pc-renwu-f4c896f1",
+      "id": "pc-dongman-ea7f6b80",
       "title": "pc-renwu-02a60a53",
       "device": "pc",
-      "category": "人物",
+      "category": "动漫",
       "width": 3840,
       "height": 2160,
-      "thumb": "thumb/pc/renwu/pc-renwu-02a60a53.webp",
-      "full": "pc/人物/pc-renwu-02a60a53.webp",
-      "source": "人物/pc-renwu-02a60a53.webp"
+      "thumb": "thumb/pc/dongman/pc-renwu-02a60a53.webp",
+      "full": "pc/动漫/pc-renwu-02a60a53.webp",
+      "source": "动漫/pc-renwu-02a60a53.webp"
     },
     {
       "id": "pc-renwu-1c4602e0",

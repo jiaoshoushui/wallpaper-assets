@@ -7,6 +7,7 @@
     "build": "node scripts/build.mjs",
     "build:force": "node scripts/build.mjs --force",
     "sync": "node scripts/build.mjs --manifest-only",
+    "deploy": "node scripts/deploy.mjs",
     "postinstall": "node scripts/init-folders.mjs"
   },
   "devDependencies": {
