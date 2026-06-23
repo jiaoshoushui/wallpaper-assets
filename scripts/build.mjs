@@ -174,6 +174,7 @@ async function buildFromDeviceFolders(device, convert = true) {
     await ensureThumb(webpPath, thumbAbs)
 
     const meta = await sharp(webpPath).metadata()
+    const fileStat = await fs.stat(webpPath)
     items.push({
       id,
       title,
@@ -181,6 +182,7 @@ async function buildFromDeviceFolders(device, convert = true) {
       category,
       width: meta.width ?? 0,
       height: meta.height ?? 0,
+      sizeBytes: fileStat.size,
       thumb: thumbRel,
       full: fullRel,
       source: rel,
