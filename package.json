@@ -7,8 +7,9 @@
     "build": "node scripts/build.mjs",
     "build:force": "node scripts/build.mjs --force",
     "sync": "node scripts/build.mjs --manifest-only",
-    "rename": "node scripts/rename-by-scene.mjs",
-    "rename:dry": "node scripts/rename-by-scene.mjs --dry-run",
+    "rename:pc": "node scripts/rename-pc-scene.mjs",
+    "rename:pc:dry": "node scripts/rename-pc-scene.mjs --dry-run",
+    "map:content": "node scripts/build-content-map.mjs",
     "deploy": "node scripts/deploy.mjs",
     "postinstall": "node scripts/init-folders.mjs"
   },
